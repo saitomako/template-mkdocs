@@ -1,0 +1,72 @@
+# Project information
+site_name: template mkdocs
+site_description: mkdocsを使ったスターターテンプレート
+site_author: saitomako
+site_url: http://memo.it/
+site_dir: ../htdocs/template-mkdocs
+
+# Page tree
+pages:
+  - HOME: index.md
+  - はじめに: 0.md
+  - 第1章: 1.md
+  - 第2章: 2.md
+
+# Repository
+#repo_name: saiotmako/template-mkdocs
+#repo_url: https://bitbucket.org/saitomako/template-mkdocs
+
+# Copyright
+copyright: 'Copyright &copy; 2018 saitomako'
+
+# Theme directory
+theme: material
+
+extra_css:
+  - 'css/extra.css'
+
+# Options
+extra:
+  feature:
+    tabs: false
+  palette:
+    primary: pink
+    accent: blue
+  social:
+    - type: globe
+      link: http://struct.cc
+    - type: github-alt
+      link: https://github.com/saitomako
+    - type: twitter
+      link: https://twitter.com/saitomako
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Google Analytics
+#google_analytics:
+#  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+#  - auto

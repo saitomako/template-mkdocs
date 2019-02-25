@@ -1,0 +1,21 @@
+.md-typeset pre {
+  font-size: 70%;
+}
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  font-weight: bold;
+}
+
+.md-typeset ol li,
+.md-typeset ul li {
+	margin-bottom: 0px;
+}
+.md-typeset dt {font-weight:bold;}
+.md-typeset dd {margin-top:0;}
+
+.text-right {text-align:right;}
+.md-typeset img {border: 1px solid #ddd;}
